@@ -1,49 +1,145 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقرير مقرر تطبيقات الإنترنت - التفكير الابتكاري</title>
     <style>
-      body {
-        background-color: #f0f4f8;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding-top: 50px;
-      }
-
-      h1 {
-        color: #2c3e50;
-        font-size: 32px;
-      }
-
-      p {
-        color: #7f8c8d;
-        font-size: 18px;
-      }
-
-      button {
-        background-color: #3498db;
-        color: white;
-        border: none;
-        padding: 12px 24px;
-        font-size: 16px;
-        border-radius: 8px;
-        cursor: pointer;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+        }
+        .student-info {
+            background: #ecf0f1;
+            padding: 12px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        ul {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
 
-    <h1>Hello Students!</h1>
-    <p>My First Web Page</p>
-    
-    <!-- ضفنا هنا حدث onclick للزرار -->
-    <button onclick="showMessage()">Click Me</button>
+    <div class="container">
+        <!-- الترويسة وعنوان التقرير -->
+        <h1>تقرير بحثي: أساسيات التفكير الابتكاري وتطبيقاته</h1>
+        
+        <!-- بيانات الطالبة -->
+        <div class="student-info">
+            <p><strong>اسم الطالبة:</strong> جهاد رمضان أحمد محمد الصعيدي</p>
+            <p><strong>الفرقة:</strong> الثانية | <strong>السكشن:</strong> 186</p>
+            <p><strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+        </div>
 
-    <!-- كود الجافا سكريبت -->
-    <script>
-      function showMessage() {
-        alert("أهلاً بك! لقد قمت بالضغط على الزر بنجاح 🚀");
-      }
-    </script>
+        <!-- المقدمة -->
+        <section>
+            <h2>1. المقدمة</h2>
+            <p>يُعد <strong>التفكير الابتكاري</strong> أحد أهم المهارات العصرية المطلوبة في بيئة العمل الحديثة. يهدف هذا التقرير إلى تسليط الضوء على مفاهيم الابتكار، وكيفية توظيف الأدوات الرقمية الحديثة وتطبيقات الإنترنت في دعم ونشر الأفكار الإبداعية.</p>
+        </section>
 
-  </body>
+        <!-- عرض الموضوع -->
+        <section>
+            <h2>2. عرض الموضوع</h2>
+            <p>يشمل الابتكار عدة مراحل أساسية تبدأ بتحديد المشكلة، مروراً بطرح الأفكار البديلة، وصولاً إلى مرحلة التنفيذ والتقييم. وفيما يلي مقارنة سريعة بين التفكير التقليدي والتفكير الابتكاري:</p>
+            
+            <!-- إضافة صورة تعبيرية -->
+            <img src="innovation.jpg" alt="صورة تعبيرية تعبر عن التفكير الابتكاري وتطبيقات الإنترنت">
+
+            <!-- جدول توضيحي أو مقارنة -->
+            <h3>مقارنة بين التفكير التقليدي والتفكير الابتكاري</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>وجه المقارنة</th>
+                        <th>التفكير التقليدي</th>
+                        <th>التفكير الابتكاري</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>الاعتماد على الحلول</strong></td>
+                        <td>الاعتراف بالحلول القديمة والثابتة</td>
+                        <td>البحث عن حلول جديدة وغير تقليدية</td>
+                    </tr>
+                    <tr>
+                        <td><strong>التعامل مع الأخطاء</strong></td>
+                        <td>تجنب الأخطاء والخوف منها</td>
+                        <td>اعتبار الخطأ فرصة للتعلم والتجربة</td>
+                    </tr>
+                    <tr>
+                        <td><strong>المرونة</strong></td>
+                        <td>محدودة وثابتة</td>
+                        <td>عالية وقابلة للتكيّف مع المتغيرات</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- المراجع -->
+        <section>
+            <h2>3. المراجع والمصادر</h2>
+            <p>تم الاستعانة بالمصادر والمراجع التالية لإعداد هذا التقرير:</p>
+            <ul>
+                <li><a href="https://www.e-marketing.gov.eg" target="_blank">بوابة التسويق والابتكار الرقمي</a></li>
+                <li><a href="https://www.torrance-tests.com" target="_blank">دراسات اختبارات تورانس للتفكير الابتكاري</a></li>
+                <li><a href="https://www.wipo.int" target="_blank">المنظمة العالمية للملكية الفكرية (WIPO)</a></li>
+            </ul>
+        </section>
+    </div>
+
+</body>
 </html>
